@@ -14,7 +14,8 @@ libraryDependencies ++= Seq(
   "org.sorm-framework" % "sorm" % "0.3.18",
   "com.h2database" % "h2" % "1.3.168",
    "com.typesafe.play" %% "anorm" % "2.4.0",
-   evolutions
+   evolutions,
+  "postgresql" % "postgresql" % "8.4-702.jdbc4"
 )
 
 resolvers ++= Seq(
